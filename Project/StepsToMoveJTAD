@@ -1,0 +1,13 @@
+1.	Uses CV to detect object then classify it by its color
+
+2.	Uses 3-D points from camera to find object depth and move to that location
+
+3.	Use IK and FK to move end effector from its starting configuration to its ending configuration to pick up object. 
+
+    a.	End effector engagement
+
+        i.	Maintain grip until it goes to bin
+
+4.	Use CV again to calculate new starting position and ending position of end effector
+
+5.	Recalculate end effector position to take object from its original location and put it in a bin. 
