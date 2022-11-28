@@ -4,6 +4,13 @@ from PIL import Image
 
 class CV():
 
+    ###     Camera's height is 5 feet
+    ###     Cube's height is 0.25 feet
+    ###     Bins height is 0.25 feet 
+    ###     J-TAD will be center of frame as to be a straight downward view along the Z-axis
+    ###         This makes it easier to run a change of basis frame that allows J-TAD to pick stuff up
+    ###         in its own frame coordinate
+    ###     
 
     vid = None
     colors = None
